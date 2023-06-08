@@ -1,0 +1,37 @@
+{
+    "name": "networkspeed",
+    "version": "1.0.0",
+    "description": "A network speed test package that allows users to measure their network connection speed, including download and upload speeds. It provides methods to initiate speed tests, calculate average speeds, and offers customization options such as selecting servers and test file sizes.",
+    "main": "main.js",
+    "bin": {
+        "networkspeed": "./cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/ShaonMajumder/networkspeed.git",
+    "author": "Shaon Majumder <smazoomder@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "network",
+        "speed",
+        "test",
+        "internet",
+        "bandwidth",
+        "performance",
+        "measurement",
+        "download",
+        "upload",
+        "latency",
+        "connection",
+        "networking",
+        "network analysis",
+        "network diagnostics",
+        "network monitoring",
+        "network optimization"
+    ],
+    "homepage": "https://github.com/ShaonMajumder/networkspeed",
+    "dependencies": {
+        "commander": "^10.0.1"
+    }
+}
